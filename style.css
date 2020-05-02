@@ -1,0 +1,100 @@
+div > img{
+  height:300px;
+  width:300px;
+  float:left;
+  margin:20px
+}
+.class1{
+  text-align:center;
+  font-family:sans-serif;
+  margin:auto
+}
+h1 ~ p
+{
+  font-size:20px
+}
+#id2{
+  color:blue;
+  clear:both;
+}
+  div a{
+    float:left;
+    text-align:center;
+    margin:50px
+  }
+  #id0{
+    font-family:open-sans;
+    font-size:20px
+  }
+  .class2{
+    background:pink;
+    height:100%
+
+  }
+  .class3{
+    text-align:center;
+  }
+  
+.class4{
+  background:skyblue;
+ margin:20px;
+
+ 
+}
+
+#id0 + .class3{
+  color:orange;
+  
+}
+ div iframe{
+  text-align:center;
+  margin:20px;
+   
+}
+#left{
+  float:left
+}
+#id11{
+  margin-top:450px;
+margin-left:300px
+}
+#cont{
+  display:grid;
+  background:grey;
+  padding:10px;
+  border-radius:20px;
+  border:2px solid black
+  
+}
+.flex-box{
+  display:flex;
+  border:2px solid black;
+  margin:10px;
+  flex-basis:400px;
+  background:skyblue
+}
+
+@media only screen and (max-width: 600px){
+    div > img{
+      float:left;
+      clear:both
+    }
+    #id2{
+       float:left;
+      clear:both;
+            
+    }
+    #id11 ~ h1{
+      margin-top:1500px;
+    }
+}
+    
+  @media only screen and (max-width: 992px)and (min-width:768px){
+    div > a{
+      float:left
+     
+    }
+    #id11 ~ h1{
+      margin-top:800px
+    }
+  }
